@@ -1,0 +1,4 @@
+uint8 servo
+uint8 span
+uint16[8] microseconds_arr
+---

@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
     "srv/SetServo.srv"
     "srv/SpanServos.srv"
+    "msg/ThermalFrame.msg"
 )
 
 if(BUILD_TESTING)
